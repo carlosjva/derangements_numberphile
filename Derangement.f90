@@ -18,7 +18,7 @@ program DerangementNp
   character(len=16) :: print_format
   ! To avoid integer division equals to 0
   print_format = '(i8, 7x, f10.6)'
-  n_tries = 50000
+  n_tries = 10000
 
 
 ! I know this is not elegant, I'll later pass this logarithm count to a subroutine

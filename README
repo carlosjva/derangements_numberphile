@@ -1,0 +1,12 @@
+
+A code made to simulate the game from the Numberphile video:
+YouTube: Derangements - Numberphile
+https://www.youtube.com/watch?v=pbXg5EI5t4c
+
+Author: Carlos Jose Vargas Aguero
+email: carlos.vargasaguero@gmail.com
+
+The FORTRAN code generates the win ratio in a text file "wins_ratio.txt" in a log scale of range 1 to 10^5
+The number of tries per game is n_tries, which is set to 10000
+
+After the text file is generated, it is plotted with Python's Matplotlib
