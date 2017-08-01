@@ -14,7 +14,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 #Loading the data
-x,y = np.loadtxt("score_ratio.txt",unpack=True)
+x,y = np.loadtxt("wins_ratio.txt",unpack=True)
 
 #Plotting the data
 fig, ax = plt.subplots()
